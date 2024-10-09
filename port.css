@@ -1,0 +1,246 @@
+/* General Style */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #282c34;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #20232a;
+    padding: 20px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.8em;
+    color: #61dafb;
+}
+
+nav a {
+    margin: 0 15px;
+    color: #61dafb;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+nav a:hover {
+    color: #ffffff;
+}
+
+.portfolio-header {
+    background-color: #415272; /* เปลี่ยนสีพื้นหลัง */
+    text-align: center; /* จัดข้อความให้อยู่กลาง */
+    padding: 20px 0; /* เพิ่มระยะห่างบนและล่าง */
+    margin-bottom: 20px; /* เพิ่มระยะห่างด้านล่าง */
+}
+
+.portfolio-header h1 {
+    margin: 0; /* ลบระยะห่างของหัวข้อ */
+    color: white; /* เปลี่ยนสีข้อความ */
+    font-size: 3em; /* ขนาดฟอนต์ */
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px 20px;
+    background-color: #222222;
+}
+
+.poty-image {
+    display: flex;
+    justify-content: center;
+    margin: 0; /* ลบ margin ด้านบนและด้านล่าง */
+}
+
+.poty-image img {
+    width: 250px; /* ปรับขนาดรูปให้เล็กลง */
+    height: auto;
+    border-radius: 10px;
+}
+
+.intro-text {
+    text-align: center; /* จัดข้อความให้อยู่ตรงกลาง */
+    width: 80%; /* ปรับให้มีขนาดกว้างขึ้นสำหรับการแสดงผลที่ดีขึ้น */
+    margin: 0 auto; /* จัดให้อยู่ตรงกลางแนวนอน */
+    padding-top: 20px; /* เพิ่ม padding ด้านบนถ้าต้องการให้มีระยะห่าง */
+}
+
+.intro-text h1 {
+    font-size: 2em;
+    color: #d9ebf0;
+    margin: 0; /* ลบ margin ด้านบนและด้านล่าง */
+}
+
+.intro-text h2 {
+    text-align: center;
+    font-size: 1.5em;
+    color: #d9ebf0;
+}
+
+.intro-text h3 {
+    text-align: center;
+    font-size: 1.5em;
+    color: #d9cfff;
+    margin: 5;
+}
+
+
+
+.hero-img img {
+    max-width: 300px;
+    border-radius: 50%;
+}
+
+
+
+/* About Me Section */
+.about-me {
+    padding: 50px;
+    text-align: center;
+    background-color: #282c34;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* จัดตำแหน่งให้อักษรแรกตรงกัน */
+    margin-left: 0px;
+}
+
+
+.about-me h2 {
+    font-size: 2.5em;
+    color: #61dafb;
+}
+
+.about-me p {
+    font-size: 1.2em;
+    color: #dddddd;
+}
+
+.about-item {
+        display: flex;
+        gap: 10px; /* เว้นระยะระหว่างหัวข้อกับรายละเอียด */
+        margin-bottom: 15px; /* เพิ่มระยะห่างระหว่างแต่ละบรรทัด */
+    }
+
+.about-item p {
+    margin: 0;
+    padding: 0;
+}
+
+.about-item strong {
+    min-width: 150px; /* กำหนดความกว้างขั้นต่ำให้หัวข้อ */
+    display: inline-block;
+    text-align: left; /* จัดหัวข้อให้ชิดซ้าย */
+}
+
+/* Projects Section */
+.projects {
+    padding: 50px;
+    background-color: #20232a;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* จัดกลางทั้งหน้า */
+    gap: 20px; /* ลดระยะห่างระหว่างกรอบ */
+}
+
+.project-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0; /* เอา margin ออกเพื่อลดระยะห่าง */
+    padding: 20px;
+    background-color: #1f1f1f;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.project-card img {
+    width: 100%; /* ทำให้รูปภาพกว้างเต็มกรอบ */
+    border-radius: 10px 10px 0 0; /* ปรับมุมให้เรียบร้อย */
+}
+
+.project-card h3 {
+    font-size: 1.8em;
+    color: #61dafb;
+    margin: 10px 0 5px 0; /* ระยะห่างบนและล่าง */
+}
+
+.project-card p {
+    color: #cccccc;
+    text-align: center; /* จัดข้อความให้อยู่ตรงกลาง */
+}
+
+
+#assignments-section h2 {
+    text-align: center;
+}
+
+.assignment-grid {
+    display: flex;
+    justify-content: center; /* จัดตำแหน่งปุ่มตรงกลาง */
+    flex-wrap: wrap; /* ให้ปุ่มไหลไปยังบรรทัดถัดไปเมื่อไม่พอพื้นที่ */
+    gap: 20px; /* เว้นระยะระหว่างปุ่ม */
+}
+
+.work-btn {
+    background-color: #4CAF50; /* เปลี่ยนสีพื้นหลังปุ่ม */
+    color: white; /* เปลี่ยนสีตัวอักษร */
+    padding: 10px 20px; /* เพิ่มระยะห่างในปุ่ม */
+    text-align: center; /* จัดตัวอักษรให้กึ่งกลาง */
+    text-decoration: none; /* เอาเส้นใต้ของลิงก์ออก */
+    border-radius: 5px; /* เพิ่มมุมให้ปุ่ม */
+    transition: background-color 0.3s; /* เพิ่มการเปลี่ยนแปลงสีเมื่อเอาเมาส์ไปอยู่บนปุ่ม */
+}
+
+.work-btn:hover {
+    background-color: #45a049; /* เปลี่ยนสีเมื่อเอาเมาส์ไปอยู่บนปุ่ม */
+}
+
+.top-right {
+    position: fixed; /* ทำให้ปุ่มอยู่ในตำแหน่งคงที่ */
+    top: 20px; /* ระยะห่างจากด้านบน */
+    right: 20px; /* ระยะห่างจากด้านขวา */
+    background-color: #4CAF50; /* เปลี่ยนสีพื้นหลัง */
+    color: white; /* เปลี่ยนสีตัวอักษร */
+    padding: 10px 15px; /* เพิ่มระยะห่างในปุ่ม */
+    text-align: center; /* จัดตัวอักษรให้กึ่งกลาง */
+    text-decoration: none; /* เอาเส้นใต้ของลิงก์ออก */
+    border-radius: 5px; /* เพิ่มมุมให้ปุ่ม */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* เพิ่มเงาให้ปุ่ม */
+    transition: background-color 0.3s; /* เพิ่มการเปลี่ยนแปลงสีเมื่อเอาเมาส์ไปอยู่บนปุ่ม */
+}
+
+.top-righthover {
+    background-color: #45a049; /* เปลี่ยนสีเมื่อเอาเมาส์ไปอยู่บนปุ่ม */
+}
+
+.top-rig {
+    position: fixed; /* ทำให้ปุ่มอยู่ในตำแหน่งคงที่ */
+    top: 20px; /* ระยะห่างจากด้านบน */
+    right: 20px; /* ระยะห่างจากด้านขวา */
+    background-color: #4CAF50; /* เปลี่ยนสีพื้นหลัง */
+    color: white; /* เปลี่ยนสีตัวอักษร */
+    padding: 10px 15px; /* เพิ่มระยะห่างในปุ่ม */
+    text-align: center; /* จัดตัวอักษรให้กึ่งกลาง */
+    text-decoration: none; /* เอาเส้นใต้ของลิงก์ออก */
+    border-radius: 5px; /* เพิ่มมุมให้ปุ่ม */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* เพิ่มเงาให้ปุ่ม */
+    transition: background-color 0.3s; /* เพิ่มการเปลี่ยนแปลงสีเมื่อเอาเมาส์ไปอยู่บนปุ่ม */
+}
+
+.top-rig:hover {
+    background-color: #45a049; /* เปลี่ยนสีเมื่อเอาเมาส์ไปอยู่บนปุ่ม */
+}
+
+
+

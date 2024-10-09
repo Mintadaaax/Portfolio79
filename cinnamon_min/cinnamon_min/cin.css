@@ -1,0 +1,71 @@
+div{
+    text-align: center;
+}
+#img-size{
+    width: 20%;
+    border: 5px solid rgb(32, 12, 109, 0.89);
+    
+    vertical-align: middle;
+}
+.box{
+    text-align: left;
+    
+    padding: 1rem;
+    margin: 1rem;
+    
+    border: 5px solid rgb(32, 12, 109, 0.89);
+   
+    vertical-align: middle;
+}
+.img-size1{
+  text-align: center;
+    width: 20%;
+    border: 5px solid rgb(32, 12, 109, 0.89);
+   
+}
+.img-size2{
+    display: flex;
+    float: right;
+    width: 20%;
+    border: 5px solid rgb(32, 12, 109, 0.89);
+   
+}
+.img-size3{
+    float: center;
+    width: 30%;
+    border: 5px solid rgb(32, 12, 109, 0.89);
+   
+    vertical-align: middle;
+}
+.img-size4{
+    float: center;
+    width: 20%;
+    border: 5px solid rgb(32, 12, 109, 0.89);
+   
+    vertical-align: middle;
+}
+.img-size5{
+    float: center;
+    width: 20%;
+    border: 5px solid rgb(32, 12, 109, 0.89);
+}
+h2{
+    font-size:250%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgba(32, 12, 109, 0.89);
+}
+h1{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(32, 12, 109, 0.89);
+}
+body{
+    background: url(pic/background.jpg) ;
+}
+.redtext {
+    font-family: Garamond, 'TH saraban', Times, serif;
+    font-size: 13pt;
+    color: rgb(58, 58, 60);
+    text-align: center;
+}
